@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login || JavaScript</title>
     <link rel="stylesheet" href="./css/style.css">
+    <script src="./login.js"></script>
 </head>
 <body>
     <form action="">
@@ -13,12 +14,12 @@
     <h1>Login</h1>
     
     <label for="">Usuario</label>
-    <input type="text" placeholder="🛂 Escriba su usuario" name="usuario">
+    <input type="text" placeholder="🛂 Escriba su usuario" id="user">
 
     <label for="">Contraseña</label>
-    <input type="text" placeholder="🛅 Escriba su contraseña" name="contraseña">
+    <input type="text" placeholder="🛅 Escriba su contraseña" id="pass">
 
-    <input type="button" value="Enter">
+    <input type="button" value="Entrar" onclick="loguear()">
 
 </form>
 
