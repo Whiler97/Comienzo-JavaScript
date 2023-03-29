@@ -1,15 +1,13 @@
 
-function loguear()
-{
-    let user=document.getElementById("usuario").value;
-    let pass=document.getElementById("contraseña").value;
+function loguear() {
+    let user = document.getElementById("usuario").value;
+    let pass = document.getElementById("contraseña").value;
 }
 
-if(user=="Juan" && pass=="1234")
-{
-    window.location="bienvenida.html";
+if (user == "Juan" && pass == "1234") {
+    window.location = "bienvenida.html";
 }
 
-else{
-alert("Datos incorrectos");
+else {
+    alert("Datos incorrectos");
 }
